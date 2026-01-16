@@ -1,0 +1,13 @@
+
+number = int(input("Enter a number: "))
+
+if number == 0:
+    print("empty group")
+else:
+    minimum = number
+    number = int(input("Enter a number: "))
+    while number != 0 & number < minimum:
+        minimum = number
+        number = int(input("Enter a number: "))
+    else:
+        print(minimum)
