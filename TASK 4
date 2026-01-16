@@ -1,0 +1,8 @@
+
+code = 123456
+answer = 0
+
+while answer != code:
+    answer = int(input("please insert code:"))
+else:
+    print("Bora Abramov")
