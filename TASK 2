@@ -1,0 +1,21 @@
+
+i = 1
+SUM = 0
+grade = int(input("Enter grade: "))
+MIN = 100
+MAX = 0
+
+while i < 20:
+    if grade < 0 or grade > 100:
+        grade = int(input("Enter grade: "))
+    else:
+        SUM = SUM + grade
+        i = i + 1
+        grade = int(input("Enter grade: "))
+        if grade >= MAX:
+            MAX = grade
+        else:
+            MIN = grade
+else:
+    AVG = int(SUM / i)
+    print(MIN , MAX , AVG)
