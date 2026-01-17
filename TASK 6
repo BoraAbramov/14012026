@@ -1,0 +1,6 @@
+
+pizza = 4
+pieces = 4 * 8
+people = 5
+
+print("each one get" ,(pieces // people), "and left another" ,(pieces % people))
